@@ -37,7 +37,7 @@ export default function FunFacts() {
           viewport={{ once: true, margin: "-100px" }}
           className="text-4xl sm:text-5xl panda-font text-center text-panda-red mb-16"
         >
-          Apakah Kamu Tahu? 🐼
+          Apakah Kamu Tahu? 
         </motion.h2>
 
         {facts.map((fact, i) => (
@@ -65,4 +65,5 @@ export default function FunFacts() {
       </div>
     </section>
   )
+
 }
