@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@300;400;600&display=swap');
+
+/* Define custom theme/colors as CSS variables */
+@theme {
+  --color-panda-red: #A0522D;
+  --color-panda-cream: #F5F5DC;
+  --color-panda-green: #556B2F;
+  --color-panda-brown: #8B4513;
+
+  --font-playful: "Fredoka", sans-serif;
+  --font-body: "Poppins", sans-serif;
+}
+
+/* Base styles */
+@layer base {
+  body {
+    background-color: var(--color-panda-cream);
+    color: #1F2937; /* gray-800 */
+    margin: 0;
+    font-family: var(--font-body);
+  }
+}
+
+/* Custom font class */
+.panda-font {
+  font-family: var(--font-playful);
+}
+
+/* Custom utilities (pakai @utility, bukan @layer utilities) */
+@utility bg-panda-cream {
+  background-color: var(--color-panda-cream);
+}
+
+@utility text-panda-red {
+  color: var(--color-panda-red);
+}
+
+@utility bg-panda-green {
+  background-color: var(--color-panda-green);
+}
+
+@utility text-panda-brown {
+  color: var(--color-panda-brown);
+}
+
+/* Tambah yang lain kalau perlu, misal */
+@utility bg-panda-brown {
+  background-color: var(--color-panda-brown);
+}
