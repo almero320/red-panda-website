@@ -4,25 +4,25 @@ const facts = [
   {
     title: "Bukan Keluarga Dekat Panda Raksasa",
     text: "Meski sama-sama menyukai bambu, Red Panda (Ailurus fulgens) lebih dekat dengan rakun dibandingkan panda raksasa.",
-    image: "/assets/redpanda.jpg",
+    image: "/assets/redpanda.webp",
     reverse: false,
   },
   {
     title: "Punya “Ibu Jari Palsu”",
     text: "Red Panda punya tulang tambahan di pergelangan tangan yang berfungsi seperti ibu jari palsu untuk memegang bambu lebih mudah.",
-    image: "/assets/red-panda-portrait1.jpg",
+    image: "/assets/red-panda-portrait1.webp",
     reverse: true,
   },
   {
     title: "Aktif Saat Senja & Malam",
     text: "Hewan krepuskular dan nokturnal: lebih aktif saat matahari terbenam hingga malam, banyak tidur di siang hari.",
-    image: "/assets/redpanda-malam.jpg",
+    image: "/assets/redpanda-malam.webp",
     reverse: false,
   },
   {
     title: "Ekor yang Multifungsi",
     text: "Ekor panjang & berbulu tebal membantu keseimbangan saat memanjat dan jadi selimut alami di pegunungan dingin.",
-    image: "/src/assets/ekor-redpanda.jpg",
+    image: "/src/assets/ekor-redpanda.webp",
     reverse: true,
   },
 ]
@@ -67,4 +67,5 @@ export default function FunFacts() {
   )
 
 }
+
 
