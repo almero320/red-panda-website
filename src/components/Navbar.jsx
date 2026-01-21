@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import redPandaLogo from '/assets/logo-redpanda.png'  // ← sesuaikan nama file gambar logo kamu di src/assets/
+import redPandaLogo from '/assets/logo-redpanda.webp'  // ← sesuaikan nama file gambar logo kamu di src/assets/
 
 export default function Navbar({ onDoubleClickLogo }) {
   return (
@@ -39,3 +39,4 @@ export default function Navbar({ onDoubleClickLogo }) {
   )
 
 }
+
