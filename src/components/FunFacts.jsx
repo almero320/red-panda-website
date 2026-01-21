@@ -22,7 +22,7 @@ const facts = [
   {
     title: "Ekor yang Multifungsi",
     text: "Ekor panjang & berbulu tebal membantu keseimbangan saat memanjat dan jadi selimut alami di pegunungan dingin.",
-    image: "/src/assets/ekor-redpanda.webp",
+    image: "/assets/ekor-redpanda.webp",
     reverse: true,
   },
 ]
@@ -67,5 +67,6 @@ export default function FunFacts() {
   )
 
 }
+
 
 
