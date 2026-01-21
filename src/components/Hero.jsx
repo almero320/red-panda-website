@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Background blur */}
       <div
         className="absolute inset-0 bg-cover bg-center blur-xl scale-110 transform-gpu"
-        style={{ backgroundImage: "url('/src/assets/red-panda-bg-landscape.jpg')" }}
+        style={{ backgroundImage: "url('/assets/red-panda-bg-landscape.jpg')" }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/40" />
 
@@ -34,4 +34,5 @@ export default function Hero() {
       </motion.div>
     </section>
   )
+
 }
