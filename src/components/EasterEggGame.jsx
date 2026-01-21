@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import redPandaLogo from '/src/assets/logo-redpanda.png'  // pastikan path ini sesuai gambar logo kamu di src/assets/
+import redPandaLogo from '/assets/logo-redpanda.png'  // pastikan path ini sesuai gambar logo kamu di src/assets/
 
 export default function EasterEggGame({ onClose }) {
   const [score, setScore] = useState(0)
@@ -115,4 +115,5 @@ export default function EasterEggGame({ onClose }) {
       </motion.div>
     </motion.div>
   )
+
 }
