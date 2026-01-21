@@ -46,7 +46,7 @@ export default function Characteristics() {
             initial={{ opacity: 0, scale: 0.92 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            src="/src/assets/karakteristiktubuh-redpanda.jpg"
+            src="/assets/karakteristiktubuh-redpanda.jpg"
             alt="Red Panda close-up"
             className="rounded-3xl shadow-2xl w-full object-cover max-h-96"
           />
@@ -58,4 +58,5 @@ export default function Characteristics() {
       </div>
     </section>
   )
+
 }
