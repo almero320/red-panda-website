@@ -47,7 +47,7 @@ export default function Behavior() {
           <motion.img
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            src="/src/assets/gbr-redpanda.jpg"
+            src="/assets/gbr-redpanda.jpg"
             alt="Red Panda behavior"
             className="rounded-3xl shadow-2xl w-full object-cover"
           />
@@ -55,4 +55,5 @@ export default function Behavior() {
       </div>
     </section>
   )
+
 }
