@@ -9,12 +9,13 @@ export default function Footer() {
       </p>
 
       {/* Kredit super kecil, hampir tidak kelihatan sekilas */}
-      <p className="mt-5 text-[5px] opacity-25">
+      <p className="mt-5 text-[5px] opacity-15">
         Created by Alien320
       </p>
     </footer>
   )
 
 }
+
 
 
