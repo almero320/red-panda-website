@@ -25,11 +25,12 @@ export default function Habitat() {
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          src="/src/assets/habitat-redpanda.jpg"  // ganti kalau punya gambar hutan
+          src="/assets/habitat-redpanda.jpg"  // ganti kalau punya gambar hutan
           alt="Habitat Red Panda"
           className="rounded-3xl shadow-2xl w-full max-w-4xl mx-auto object-cover max-h-[500px]"
         />
       </div>
     </section>
   )
+
 }
